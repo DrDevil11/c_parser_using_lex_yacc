@@ -1,0 +1,7 @@
+steps to run:
+
+1) Get to the directory where the files are stored in terminal.
+2) Run lex "filename.l", this will create a file lex.yy.c 
+3) Run yacc -d "filename.y", this will create 2 files y.tab.c and y.tab.h.
+4) Compile the files as gcc lex.yy.c y.tab.c
+5) Run as ./"compiledfile"<inputfile.
